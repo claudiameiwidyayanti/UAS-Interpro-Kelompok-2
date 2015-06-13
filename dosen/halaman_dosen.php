@@ -7,7 +7,7 @@ include('cek-login.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link href="style.css" type="text/css" rel="stylesheet" />
-<title>HAlaman Admin</title>
+<title>Halaman Admin</title>
 </head>
 
 
