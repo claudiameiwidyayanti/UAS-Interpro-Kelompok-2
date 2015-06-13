@@ -18,7 +18,7 @@ if (!empty($_SESSION['NIP'])) {
 	<form action="cek_login_dosen.php" method="post">
 		<table>
 		   <thead>
-		   <tr><th colspan="3">Login Dosenkkkkkk</th></tr>
+		   <tr><th colspan="3">Login Dosen</th></tr>
 		   </thead>
 		   <tr>
 		   <td >NIP</td>
