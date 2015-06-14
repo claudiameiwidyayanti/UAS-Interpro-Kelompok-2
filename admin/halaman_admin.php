@@ -7,7 +7,16 @@ include('cek-login.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link href="style.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.aa {
+	color: #06F;
+}
+body {
+	background-color: #06F;
+}
+</style>
 <title>HAlaman Admin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 
@@ -19,10 +28,10 @@ include('cek-login.php');
 		$data = mysql_fetch_array($query);
 		?>
 
-<h2>Selamat Datang Admin "<?php echo $data['nama']; ?>"</h2>
+<h2 align="center">Selamat Datang Admin "<?php echo $data['nama']; ?>"</h2>
 <br>
-<h3>Silahkan Pilih Menu Berikut :</h3><br><br>
-<div>
+<h3 align="center">Silahkan Pilih Menu Berikut :</h3><br><br>
+<div align="center">
 <a href="jadwal/admin_jadwal.php"><button>Penjadwalan</button> </a>
 <a href="mahasiswa/admin_mahasiswa.php"><button>Kemahasiswaan</button> </a>
 <a href="dosen/admin_dosen.php"><button>Dosen</button> </a>
