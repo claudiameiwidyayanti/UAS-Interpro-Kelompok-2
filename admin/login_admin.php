@@ -4,16 +4,17 @@ session_start();
 include_once('koneksi.php');
 
 if (!empty($_SESSION['nama'])) {
-	header('location:login_admin.php');
+  header('location:login_admin.php');
 }
 ?>
 
-<html >
-  <head>
+<HTML>
+<head>
+<head>
     <meta charset="UTF-8">
 
 
-    <title>Login - Animation - NoEdit </title>
+    <title>Sistem Informasi Presensi dan Jurnal Kelas Online</title>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     
@@ -45,35 +46,35 @@ body {
 }
 
 .logged-in {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-container, .front, .back, .back-logo {
-	width: 130px;
-	height: 130px;
+  width: 130px;
+  height: 130px;
 }
 
 .flipper {
-	transition-duration: 0.6s;
-	transform-style: preserve-3d;
+  transition-duration: 0.6s;
+  transform-style: preserve-3d;
 }
 
 .front, 
 .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-size: cover;
 }
 
 .front {
-	background: url(http://s8.postimg.org/y7z5wso29/Flip_Img.png) 0 0 no-repeat;
+  background: url(http://s8.postimg.org/y7z5wso29/Flip_Img.png) 0 0 no-repeat;
 }
 
 .back {
-	transform: rotateY(180deg);
-	background: url(http://s8.postimg.org/u04do1mmp/Flip_Img2.png) 0 0 no-repeat;
+  transform: rotateY(180deg);
+  background: url(http://s8.postimg.org/u04do1mmp/Flip_Img2.png) 0 0 no-repeat;
 }
 
 h1 {
@@ -160,8 +161,14 @@ a:hover {
 
     
   </head>
-  
-<body>
+
+  <body>
+
+    <!--    
+        JS Credits to bartveneman
+        Comments? Feel free!
+ -->
+
 
 
 <div class="wrap">
@@ -173,20 +180,34 @@ a:hover {
     </div>
   </div>
   
-  <form action="cek_login_admin.php" method="post">
-  <h1 class="text" id="welcome">Welcome. <span>please login.</span></h1>
-  
-  <form method='post' id="theForm">
-    <input type='text' id="username" name='username' placeholder='Username'>
-    <input type='password' id='password' name='password' placeholder='Password'>
-     
-    <div class='login'>
-      <input type='submit' value='Login'>
-    </div><!-- /login -->
-  </form>
-</div><!-- /wrap -->
 
-        <script src="js/index.js"></script>
-		</form>
-  </body>
-</html>
+
+  
+</head>
+<body>
+
+<div>
+  <form action="cek_login_admin.php" method="post">
+    <table>
+       <thead>
+       <tr><th colspan="3">Login Admin</th></tr>
+       </thead>
+       <tr>
+       <td >Nama</td>
+       <td ><input id="nama" name="nama" class="wide" type="text" required="required" /></td>
+       </tr>
+       <td>Password</td>
+       <td><input id="password" name="password" class="wide" type="password" required="required" /></td>
+       </tr>
+    </table>
+<div>
+<input type="submit" name="submit" class="button" value="Masuk" id="tombolformnext" />
+</div>
+</form>
+<div >
+<a href="../index.php"><button class="button" id="tombolformback">Kembali</button></a>
+</div>
+  
+</div>
+</body>
+</HTML>
