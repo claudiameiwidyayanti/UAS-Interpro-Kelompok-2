@@ -8,7 +8,6 @@ if (!empty($_SESSION['nama'])) {
 }
 ?>
 
-<!DOCTYPE html>
 <html >
   <head>
     <meta charset="UTF-8">
@@ -161,8 +160,8 @@ a:hover {
 
     
   </head>
-
-  <body>
+  
+<body>
 
 
 <div class="wrap">
@@ -174,9 +173,10 @@ a:hover {
     </div>
   </div>
   
+  <form action="cek_login_admin.php" method="post">
   <h1 class="text" id="welcome">Welcome. <span>please login.</span></h1>
   
-	<form action="cek_login_admin.php" method="post">
+  <form method='post' id="theForm">
     <input type='text' id="username" name='username' placeholder='Username'>
     <input type='password' id='password' name='password' placeholder='Password'>
      
@@ -187,9 +187,6 @@ a:hover {
 </div><!-- /wrap -->
 
         <script src="js/index.js"></script>
+		</form>
   </body>
 </html>
-
-
-
-
