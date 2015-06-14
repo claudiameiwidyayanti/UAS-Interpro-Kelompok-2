@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$database = "presensidanjurnalkelas_onlinesss";
+$database = "presensidanjurnalkelas_online";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Koneksi gagal");
