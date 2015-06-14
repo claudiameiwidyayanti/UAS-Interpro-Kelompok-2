@@ -3,17 +3,18 @@ include_once('koneksi.php');
 include('cek-login.php');
 ?>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link href="style.css" type="text/css" rel="stylesheet" />
-<style type="text/css">
-.aa {
-	color: #06F;
-}
-body {
-	background-color: #06F;
-}
+<title>BlueFresh</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="satu.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+</div>
+
 </style>
 <title>Halaman Admin</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -27,20 +28,50 @@ body {
 		$query = mysql_query("select * from admin where nama='$nama'" );
 		$data = mysql_fetch_array($query);
 		?>
-
-<h2 align="center">Selamat Datang Admin "<?php echo $data['nama']; ?>"</h2>
+		
+<h2 align="center">Selamat Datang Admin"<?php echo $data['nama']; ?>"</h2>
 <br>
 <h3 align="center">Silahkan Pilih Menu Berikut :</h3><br><br>
-<div align="center">
-<a href="jadwal/admin_jadwal.php"><button>Penjadwalan</button> </a>
-<a href="mahasiswa/admin_mahasiswa.php"><button>Kemahasiswaan</button> </a>
-<a href="dosen/admin_dosen.php"><button>Dosen</button> </a>
-<a href="ruang/admin_ruang.php"><button>Ruang</button> </a>
-<a href="matkul/admin_matkul.php"><button>Mata Kuliah</button> </a>
-<a href="tu/admin_tu.php"><button>Tata Usaha</button></a>
-<a href="edit_data_admin.php?id_admin=<?php echo $data['id_admin']?>"><button class="button" id="tombolformnext">Edit Data Admin</button> </a>
-<a href="logout.php"><button class="button" id="tombolformback">Keluar</button></a>
+<div id="menu">
+<ul>
+<li><a href="#">Penjadwalan</a></li>
+<li><a href="#">Kemahasiswaan</a></li>
+<li><a href="#">Dosen</a></li>
+<li><a href="#">Ruang</a></li>
+<li><a href="#">Mata Kuliah</a></li>
+<li><a href="#">Tata Usaha</a></li>
+<li><a href="#">Edit Data Admin</a></li>
+<li><a href="#">Keluar</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<div class="right"> 
+
+<div class="articles">
+ 
+<br /><br />
+<img src="images(4).jpg" alt="Example pic" style="border: 3px solid #ccc;" />
+<br /><br />
+</div>
+<div class="articles">
+</div>
+</div>
+
+<div class="left"> 
 
 </div>
+
+<div style="clear: both;"> </div>
+
+</div>
+
+<div id="bottom"> </div>
+
+<div id="footer">
+</div>
+</div>
+
 </body>
 </html>
