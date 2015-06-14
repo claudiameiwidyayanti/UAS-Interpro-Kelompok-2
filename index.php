@@ -10,7 +10,7 @@
 <!-- isi index -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sistem Informasi Presensi dan Jurnal Kelas Online</title>
+<title>Sistem Informasi Presensi dan Jurnal Kelas</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 
@@ -50,7 +50,7 @@ $(window).load(function() {
 		
 <div class="judul"> 
 		<p><h1><b><center><marquee><font color=blue>SELAMAT DATANG !!</font><center></marquee></b></h1></p>
-		<p><h1><b><center><font color=red>Sistem Informasi Presensi dan Jurnal Kelas Online</font><center></b></h1></p>
+		<p><h1><b><center><font color=red>Sistem Informasi Presensi dan Jurnal Kelas</font><center></b></h1></p>
 		</div>
 		
     <div id="tooplate_header">
