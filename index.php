@@ -59,7 +59,6 @@ $(window).load(function() {
             <ul>
                 <li><a href="index.php" class="current">Home</a></li>
                 <li><a href="informasi.php">Informasi</a></li>
-                <li><a href="galeri.php">Gallery</a></li>
             </ul>    	
         </div> <!-- end of tooplate_menu -->
     </div> <!-- end of forever header -->
