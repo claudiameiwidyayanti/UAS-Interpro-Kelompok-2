@@ -15,7 +15,7 @@ body {
 	background-color: #06F;
 }
 </style>
-<title>HAlaman Admin</title>
+<title>Halaman Admin</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
