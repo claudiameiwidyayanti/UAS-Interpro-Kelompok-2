@@ -7,7 +7,6 @@
 <html lang="en">
 <html>
 
-
 <!-- isi index -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -46,7 +45,6 @@ $(window).load(function() {
 
 </head>
 <body>
-
 <div id="tooplate_body_wrapper">
 <div id="tooplate_wrapper">
 		
@@ -61,12 +59,10 @@ $(window).load(function() {
             <ul>
                 <li><a href="index.php" class="current">Home</a></li>
                 <li><a href="informasi.php">Informasi</a></li>
-                <li><a href="galeri.php">Gallery</a></li>
             </ul>    	
         </div> <!-- end of tooplate_menu -->
     </div> <!-- end of forever header -->
 	
-	<!-- Isi tampilan utama -->
 		<body>
 <center><a href="admin/login_admin.php"><button style="width: 200px; heigth: 700px;">Login Admin</button></a>
 <a href="dosen/login_dosen.php"><button style="width: 200px; heigth: 700px;">Login Dosen</button></a>
@@ -75,11 +71,11 @@ $(window).load(function() {
     
     <div id="tooplate_middle">
     	<div id="slider">
-            <a href="#"><img src="image/slideshow/danau.jpg"/></a>
-            <a href="#"><img src="image/slideshow/danau-lidah.jpg"/></a>
-            <a href="#"><img src="image/slideshow/gerbanggg.jpg"/></a>
-            <a href="#"><img src="image/slideshow/jtif.jpg"/></a>
-            <a href="#"><img src="image/slideshow/rektor.jpg"/></a>
+            <a href="#"><img src="images/slideshow/danau.jpg"/></a>
+            <a href="#"><img src="images/slideshow/danau-lidah.jpg"/></a>
+            <a href="#"><img src="images/slideshow/gerbanggg.jpg"/></a>
+            <a href="#"><img src="images/slideshow/jtif.jpg"/></a>
+            <a href="#"><img src="images/slideshow/rektor.jpg"/></a>
         </div>	
 	</div> <!-- end of middle -->
 
