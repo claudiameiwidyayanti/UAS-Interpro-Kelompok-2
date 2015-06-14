@@ -30,13 +30,12 @@
 		</div>
 		
 		<!-- Isi tampilan utama -->
-		<th><p><h2><center><font color=white>PERATURAN dan INFORMASI !!</p></th>
-		
+		<p><center><h2><font color=white>PERATURAN dan INFORMASI !!</center></p>
 		<p>1. Silahkan melakukan absensi dan mengisi jurnal kelas pada setiap mata kuliah.</p>
 		<p>Jika ingin melakukan absensi silahkan Login terlebih dahulu.</p>
 		<p>Kemudian isi kehadiran anda.</p>
 		<p>Jika ingin mengisi jurnal silahkan memilih login terlebih dahulu.</p>
-		<p>Kemudian silahkan mengisi jurnal.</center></h2></p>
+		<p>Kemudian silahkan mengisi jurnal.</p>
 
 		<p>2. Presensi Kelas hanya bisa diakses oleh Mahasiswa untuk melakukan absensi.</p>
 		<p>Mahasiswa hanya dapat melakukan absensi kelas pada mata kuliah yang saat itu dilaksanakan,
