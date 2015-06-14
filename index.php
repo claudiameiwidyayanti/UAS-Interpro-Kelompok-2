@@ -28,6 +28,8 @@
 		</div>
 		<div class="judul"> .
 		<p><h1><b><center><font color=red>Sistem Informasi Presensi dan Jurnal Kelas Online</font><center></b></h1></p>
+		<p><h1><b><center><font color=red>Jurusan Teknik Informatika, Fakultas Teknik</font><center></b></h1></p>
+		<p><h1><b><center><font color=red>UNIVERSITAS NEGERI SURABAYA</font><center></b></h1></p>
 		</div>
 		<!-- Isi -->
 
