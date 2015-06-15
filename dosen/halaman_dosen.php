@@ -23,7 +23,7 @@ include('cek-login.php');
 <br>
 <h3>berikut opsi yang tersedia untuk anda</h3>
 <a href="presensi_siswa/tambah_presensi_siswa.php?>"><button>Presensi Siswa</button></a>
-<a href="jurnal/jurnal_matkul.php?>"><button>Jurnal Matakuliah</button></a>
+
 <h3>berikut data anda</h3><br><br>
 <div>
 NIP: <?php echo $data['NIP']?><br>
