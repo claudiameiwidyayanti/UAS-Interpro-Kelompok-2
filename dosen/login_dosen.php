@@ -4,7 +4,7 @@ session_start();
 include_once('koneksi.php');
 
 if (!empty($_SESSION['NIP'])) {
-	header('location:login_admin.php');
+  header('location:login_admin.php');
 }
 ?>
 
@@ -47,35 +47,35 @@ body {
 }
 
 .logged-in {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-container, .front, .back, .back-logo {
-	width: 130px;
-	height: 130px;
+  width: 130px;
+  height: 130px;
 }
 
 .flipper {
-	transition-duration: 0.6s;
-	transform-style: preserve-3d;
+  transition-duration: 0.6s;
+  transform-style: preserve-3d;
 }
 
 .front, 
 .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-size: cover;
 }
 
 .front {
-	background: url(http://s8.postimg.org/y7z5wso29/Flip_Img.png) 0 0 no-repeat;
+  background: url(http://s8.postimg.org/y7z5wso29/Flip_Img.png) 0 0 no-repeat;
 }
 
 .back {
-	transform: rotateY(180deg);
-	background: url(http://s8.postimg.org/u04do1mmp/Flip_Img2.png) 0 0 no-repeat;
+  transform: rotateY(180deg);
+  background: url(http://s8.postimg.org/u04do1mmp/Flip_Img2.png) 0 0 no-repeat;
 }
 
 h1 {
@@ -189,26 +189,27 @@ a:hover {
 <body>
 
 <div>
-	<form action="cek_login_dosen.php" method="post">
-		<table>
-       <h1 class="text" id="welcome">Welcome. <span>please login.</span></h1>
-	   
-	   
-	   <tr>
-       <td >&nbsp;</td>
-      
+  <form action="cek_login_dosen.php" method="post">
+    <table>
+       <thead>
+       <tr><th colspan="3">Login Dosen</th></tr>
+       </thead>
+       <tr>
+       <td >NIP</td>
+       <td ><input id="NIP" name="NIP" class="wide" type="text" required="required" /></td>
+       </tr>
+       <td>Password</td>
+       <td><input id="password" name="password" class="wide" type="password" required="required" /></td>
+       </tr>
     </table>
-    <input id="nama" name="nama" class="wide" type="text" required placeholder='Username'/>
-    <p>
-      <input id="password" name="password" class="wide" type="password" required placeholder='Password' />
-    </p>
-    <div class='login'>
-      <input type="submit" name="submit" class="button" value="Login" id="tombolformnext" />
-      <span class="kembali"><a href="../index.php">
-      <input type="submit" name="tombolformnext" class="button" value="Kembali" id="tombolformnext2" />
-    </a></span></div>
-<div class='kembali'></div>
+<div>
+<input type="submit" name="submit" class="button" value="Masuk" id="tombolformnext" />
+</div>
 </form>
+<div >
+<a href="../index.php"><button class="button" id="tombolformback">Kembali</button></a>
+</div>
+  
 </div>
 </body>
 </HTML>
