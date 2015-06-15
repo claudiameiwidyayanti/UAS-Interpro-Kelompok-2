@@ -13,6 +13,7 @@ include('cek-login.php');
 }
 body {
 	background-color: #06F;
+	
 }
 </style>
 <title>Halaman Admin</title>
