@@ -19,7 +19,7 @@ include('cek-login.php');
 		$data = mysql_fetch_array($query);
 		?>
 
-<h2>Selamat Datang di Halaman ini"<?php echo $data['NAMA_DOSEN']; ?>"</h2>
+<h2>Selamat Datang "<?php echo $data['NAMA_DOSEN']; ?>"</h2>
 <br>
 <h3>berikut opsi yang tersedia untuk anda</h3>
 <a href="presensi_siswa/tambah_presensi_siswa.php?>"><button>Presensi Siswa</button></a>
