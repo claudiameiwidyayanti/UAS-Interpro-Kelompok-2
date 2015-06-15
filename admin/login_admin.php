@@ -189,25 +189,24 @@ a:hover {
 <div>
   <form action="cek_login_admin.php" method="post">
     <table>
-       <thead>
-       <tr><th colspan="3">Login Admin</th></tr>
-       </thead>
-       <tr>
-       <td >Nama</td>
-       <td ><input id="nama" name="nama" class="wide" type="text" required="required" /></td>
-       </tr>
-       <td>Password</td>
-       <td><input id="password" name="password" class="wide" type="password" required="required" /></td>
-       </tr>
+       <h1 class="text" id="welcome">Welcome. <span>please login.</span></h1>
+	   
+	   
+	   <tr>
+       <td >&nbsp;</td>
+      
     </table>
-<div>
-<input type="submit" name="submit" class="button" value="Masuk" id="tombolformnext" />
-</div>
+    <input id="nama" name="nama" class="wide" type="text" required placeholder='Username'/>
+    <p>
+      <input id="password" name="password" class="wide" type="password" required placeholder='Password' />
+    </p>
+    <div class='login'>
+      <input type="submit" name="submit" class="button" value="Login" id="tombolformnext" />
+      <span class="kembali"><a href="../index.php">
+      <input type="submit" name="tombolformnext" class="button" value="Kembali" id="tombolformnext2" />
+    </a></span></div>
+<div class='kembali'></div>
 </form>
-<div >
-<a href="../index.php"><button class="button" id="tombolformback">Kembali</button></a>
-</div>
-  
 </div>
 </body>
 </HTML>
