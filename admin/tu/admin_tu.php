@@ -7,6 +7,12 @@ include('cek-login.php');
 <html>
 <head>
 <link href="style.css" type="text/css" rel="stylesheet" />
+.aa {
+	color: #06F;
+}
+body {
+	background-color: #06F;
+}
 <title>Admin TU</title>
 </head>
 
