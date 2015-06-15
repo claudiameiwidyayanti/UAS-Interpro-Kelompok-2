@@ -13,6 +13,7 @@ include('cek-login.php');
 }
 body {
 	background-color: #06F;
+	background-image: url(../../presensidanjurnalkelas_online/blue-technology-globe-information-background-19987252.jpg);
 }
 </style>
 <title>Halaman Admin</title>
