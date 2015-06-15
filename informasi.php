@@ -4,55 +4,59 @@
 ?>
 
 <!DOCTYPE html>
+
 <html lang="en">
 <html>
 
-	<head>
-		<title> Sistem Informasi Presensi dan Jurnal Kelas Online</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" 
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-	</head>
-	
-	
-	<body background = "image/hitam.png" >
-		<div class="navbar">
-		<ul class="nav nav-pills">
-			<li role="presentation"><a href="index.php">Menu Utama</a></li>
-			<li role="presentation" class="active"><a href="informasi.php">Informasi</a></li>
-		</ul>
-	
-		<div class="judul"> 
-		<h1><b><center><font color=white>Sistem Informasi Presensi dan Jurnal Kelas Online</font><center></b></h1>
-		</div>
-		
-		<!-- Isi tampilan utama -->
-		<th><p><h2><center><font color=white>PERATURAN !!</p></th>
-		<th><p>1. Silahkan melakukan absensi dan mengisi jurnal kelas pada setiap mata kuliah.</p>
+<!-- isi tampilan -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sistem Informasi Presensi dan Jurnal Kelas- Informasi</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
 
-		<p>Jika ingin melakukan absensi silahkan Login terlebih dahulu.</p>
-		<p>Kemudian isi kehadiran anda.</p>
-		
-		<p>Jika ingin mengisi jurnal silahkan memilih login terlebih dahulu.</p>
-		<p>Kemudian silahkan mengisi jurnal.</center></h2></p></th>
+<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
 
-		<p><center><font color=white>INFORMASI !!</center></p>
-		<p>1. Presensi Kelas hanya bisa diakses oleh Mahasiswa untuk melakukan absensi.</p>
-		<p>Mahasiswa hanya dapat melakukan absensi kelas pada mata kuliah yang saat itu dilaksanakan,
-		dengan waktu yang terbatas yaitu saat mata kuliah tersebut dilaksanakan dan sampai jam mata kuliah tersebut berakhir.</p>
-		<p>Jika telah melewati batas waktu yang telah ditentukan maka Mahasiswa tidak dapat melakukan absensi dan dianggap tidak hadir.</p>
-		
-		<p>2. Jurnal Kelas dapat diakses oleh Dosen dan PK Setiap Mata Kuliah.</p>
-		<p>Dosen yang mengisi jurnal yaitu Dosen yang mengajar mata kuliah tersebut.</p>
-		<p>Dosen mengisi jurnal kelas ketika mata kuliah tersebut dilaksanakan sampai jam mata kuliah tersebut berakhir.</p>
-		<p>Jika telah melewati batas waktu yang telah ditentukan maka Dosen tidak dapat mengisi jurnal tersebut dan dianggap tidak hadir dan tidak mengajar pada saat mata kuliah tersebut.</p>
-		<p>Untuk PK setiap mata kuliah berbeda-beda.</p>
-		<p>PK yang dapat mengisi jurnal tersebut yaitu hanya PK mata kuliah tersebut. Jika PK mata kuliah tidak hadir maka tidak dapat digantikan oleh siapapun.</p>
-		<p>PK mengisi jurnal kelas ketika mata kuliah tersebut dilaksanakan sampai jam mata kuliah tersebut berakhir.</p>
-		<p>Jika telah melewati batas waktu yang telah ditentukan maka PK tidak dapat mengisi jurnal tersebut dan dianggap tidak hadir.</font></p>
-		<!-- Isi -->
-		
+<div id="tooplate_body_wrapper">
+<div id="tooplate_wrapper">
+
+<div class="judul"> 
+		<p><h1><b><center><marquee><font color=blue>SELAMAT DATANG !!</font><center></marquee></b></h1></p>
+		<p><h1><b><center><font color=red>Sistem Informasi Presensi dan Jurnal Kelas</font><center></b></h1></p>
+		</div>		
+    
+    <div id="tooplate_header">
+
+        <div id="tooplate_menu">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="informasi.php" class="current">Informasi</a></li>
+            </ul>    	
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- end of forever header -->
+
+
+    <div id="tooplate_middle_subpage">
+    	<p><h2>PERATURAN dan INFORMASI !!</h2></p>
+        <p>------------------------------------------------------------</p>
+        <p></p>
+        <p>1. Silahkan melakukan absensi dan mengisi jurnal kelas pada setiap mata kuliah. Jika ingin melakukan absensi silahkan Login terlebih dahulu. Kemudian isi kehadiran anda. Jika ingin mengisi jurnal silahkan memilih login terlebih dahulu. Kemudian silahkan mengisi jurnal.</p>
+
+	</div> <!-- end of middle -->
+    
+    <div id="tooplate_main">
+                    
+        
+</div>
+
+<div id="tooplate_copyright_wrapper">
+	<div id="tooplate_copyright">
+    	
+        Copyright © 2015 <a href="#">Kelompok 2</a>
+        	
+    </div>
+</div>
+
 	</body>
 	
 </html>
