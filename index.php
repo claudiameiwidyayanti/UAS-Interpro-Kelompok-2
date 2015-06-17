@@ -66,6 +66,8 @@ $(window).load(function() {
 		<body>
 <center><a href="admin/login_admin.php"><button style="width: 200px; heigth: 700px;">Login Admin</button></a>
 <a href="dosen/login_dosen.php"><button style="width: 200px; heigth: 700px;">Login Dosen</button></a>
+<a href="pk/login_pk.php"><button style="width: 200px; heigth: 700px;">Login PK</button></a>
+
 </body>
 
     
