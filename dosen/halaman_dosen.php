@@ -7,7 +7,7 @@ include('cek-login.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link href="style.css" type="text/css" rel="stylesheet" />
-<title>Halaman Admin</title>
+<title>HAlaman Admin</title>
 </head>
 
 
@@ -23,6 +23,7 @@ include('cek-login.php');
 <br>
 <h3>berikut opsi yang tersedia untuk anda</h3>
 <a href="presensi_siswa/tambah_presensi_siswa.php?>"><button>Presensi Siswa</button></a>
+<a href="jurnal.php?>"><button>Jurnal Matakuliah</button></a>
 
 <h3>berikut data anda</h3><br><br>
 <div>

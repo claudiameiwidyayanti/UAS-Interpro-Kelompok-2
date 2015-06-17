@@ -3,7 +3,7 @@ session_start();
 
 include_once('koneksi.php');
 
-if (!empty($_SESSION['NIP'])) {
+if (!empty($_SESSION['NIM'])) {
 	header('location:login_admin.php');
 }
 ?>
@@ -189,15 +189,15 @@ a:hover {
 <body>
 
 <div>
-	<form action="cek_login_dosen.php" method="post">
+	<form action="cek_login_pk.php" method="post">
 		<table>
-		   <h1 class="text" id="welcome">Welcome. <span>please login.</span></h1>
+		   <h1 class="text" id="welcome">Welcome. <span>Login PK</span></h1>
 	
 		   <tr>
        <td >&nbsp;</td>
       
     </table>
-    <input id="NIP" name="NIP" class="wide" type="text" required="required" placeholder='Username'/>
+    <input id="NIM" name="NIM" class="wide" type="text" required="required" placeholder='Username'/>
     <p>
       <input id="password" name="password" class="wide" type="password" required="required"  placeholder='Password' />
     </p>
