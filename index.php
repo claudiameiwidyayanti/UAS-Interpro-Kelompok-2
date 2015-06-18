@@ -10,7 +10,7 @@
 <!-- isi index -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sistem Informasi Presensi dan Jurnal Kelas</title>
+<title>UAS Sistem Informasi Presensi dan Jurnal Kelas</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 
